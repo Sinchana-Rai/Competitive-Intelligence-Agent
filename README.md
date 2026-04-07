@@ -40,19 +40,26 @@ An agent performs **4 key steps**:
 ### End-to-End Workflow
 
 Public Websites
-    ↓
+      |
+      V
 Scraper (fetch_schoolai.py)
-    ↓
+      |
+      V
 Raw Data (data_sources/)
-    ↓
+      |
+      V
 Notes Builder (build_notes.py)
-    ↓
+      |
+      V
 Structured Notes (.md)
-    ↓
+      |
+      V
 AI Agent (simple_ci_agent.py)
-    ↓
+      |
+      V
 LLM (Groq / OpenAI)
-    ↓
+      |
+      V
 Final Report (output/)
 
 ---
