@@ -39,28 +39,7 @@ An agent performs **4 key steps**:
 ## 3) System Architecture
 ### End-to-End Workflow
 
-Public Websites
-      |
-      V
-Scraper (fetch_schoolai.py)
-      |
-      V
-Raw Data (data_sources/)
-      |
-      V
-Notes Builder (build_notes.py)
-      |
-      V
-Structured Notes (.md)
-      |
-      V
-AI Agent (simple_ci_agent.py)
-      |
-      V
-LLM (Groq / OpenAI)
-      |
-      V
-Final Report (output/)
+Public Websites -> Scraper (fetch_schoolai.py) -> Raw Data (data_sources/) -> Notes Builder (build_notes.py) -> Structured Notes (.md) -> AI Agent (simple_ci_agent.py) -> LLM (Groq / OpenAI) -> Final Report (output/)
 
 ---
 
@@ -114,12 +93,12 @@ output_brisk.md
 ---
 
 ## 5) Project Structure
-
+```text
 colleague_ai_ci_starter/
 │
 ├── scraper/
 │   ├── fetch_schoolai.py
-│   ├── build_notes.py
+│   └── build_notes.py
 │
 ├── data_sources/
 │   └── schoolai/
@@ -133,8 +112,8 @@ colleague_ai_ci_starter/
 ├── schoolai_notes.md
 ├── sample_magic_school_notes.md
 ├── requirements.txt
-├── README.md
-
+└── README.md
+```
 ---
 
 ## 6) Installation
