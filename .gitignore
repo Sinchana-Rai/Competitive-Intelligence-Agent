@@ -12,3 +12,4 @@ __pycache__/
 *.pyo
 .DS_Store
 .idea/
+scraper_pipeline
