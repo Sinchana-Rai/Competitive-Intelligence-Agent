@@ -2,7 +2,7 @@
 AA beginner-friendly project to build a **Colleague AI Competitive Intelligence Agent** that analyzes K–12 education AI competitors and generates structured strategic reports.
 
 ## 1) What this project does
-This project builds an **AI agent** that acts like a junior product marketer / strategy analyst / competitive analyst for the K–12 AI Education market.
+This project builds an **AI agent** that acts like a competitive analyst for the K–12 AI Education market.
 
 Its job is to:
 - collect competitor information
